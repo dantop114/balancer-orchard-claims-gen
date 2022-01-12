@@ -1,0 +1,60 @@
+{
+    "config": {
+        "ipfsGateway": "",
+        "networks": {
+            "1": {
+                "chainId": 1,
+                "chainName": "Ethereum",
+                "name": "Ethereum Mainnet",
+                "network": "homestead",
+                "rpc": "https://mainnet.infura.io/v3/{{INFURA_KEY}}",
+                "ws": "wss://mainnet.infura.io/ws/v3/{{INFURA_KEY}}",
+                "addresses": {
+                    "bFactory": "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
+                    "bActions": "0xde4A25A0b9589689945d842c5ba0CF4f0D4eB3ac",
+                    "dsProxyRegistry": "0x4678f0a6958e4D2Bc4F1BAF7Bc52E8F3564f3fE4",
+                    "exchangeProxy": "0x3E66B66Fd1d0b02fDa6C811Da9E0547970DB2f21",
+                    "merkleRedeem": "0x6d19b2bF3A36A61530909Ae65445a906D98A2Fa8",
+                    "merkleOrchard": "0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca",
+                    "multicall": "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
+                    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+                    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+                    "weightedPoolFactory": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9",
+                    "stablePoolFactory": "0xc66Ba2B6595D3613CCab350C886aCE23866EDe24",
+                    "tokenFactory": "",
+                    "weth": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "stETH": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+                    "wstETH": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                    "lidoRelayer": "0xdcdbf71A870cc60C6F9B621E28a7D3Ffd6Dd4965",
+                    "MockFlashLoanReceiver": "",
+                    "balancerHelpers": "0x5aDDCCa35b7A0D07C74063c48700C8590E87864E",
+                    "batchRelayer": "0xAc9f49eF3ab0BbC929f7b1bb0A17E1Fca5786251"
+                }
+            },
+            "137": {
+                "chainId": 137,
+                "chainName": "Polygon",
+                "name": "Polygon mainnet",
+                "network": "polygon",
+                "rpc": "https://polygon-mainnet.infura.io/v3/{{INFURA_KEY}}",
+                "ws": "wss://polygon-mainnet.infura.io/ws/v3/{{INFURA_KEY}}",
+                "addresses": {
+                    "exchangeProxy": "",
+                    "merkleRedeem": "",
+                    "merkleOrchard": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e",
+                    "multicall": "0x275617327c958bD06b5D6b871E7f491D76113dd8",
+                    "authorizer": "0xa331d84ec860bf466b4cdccfb4ac09a1b43f3ae6",
+                    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+                    "weightedPoolFactory": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9",
+                    "stablePoolFactory": "0xc66Ba2B6595D3613CCab350C886aCE23866EDe24",
+                    "weth": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+                    "stETH": "",
+                    "wstETH": "",
+                    "lidoRelayer": "",
+                    "balancerHelpers": "0x94905e703fead7f0fd0eee355d267ee909784e6d",
+                    "batchRelayer": "0x4574ccBcC09A00C9eE55fB92Fe353699A4fA800e"
+                }        
+            }
+        }    
+    }
+}
